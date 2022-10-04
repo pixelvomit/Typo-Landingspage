@@ -1,0 +1,11 @@
+:root{
+    --color-base: black;
+    --color-accent: cadetblue;
+    --color-dark: black;
+    --color-light: white;
+
+    --font-base: 'Cormorant', serif;
+    --font-accent: 'Times new roman', Times, serif;
+
+    --border-thin: thin solid var(--color-dark);
+}

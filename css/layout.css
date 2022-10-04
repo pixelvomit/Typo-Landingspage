@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 3rem;
+
+}
+
+header {
+    width: 70%;
+    font-size: 4rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+
+    width: 80%;
+    padding: 2em;
+    
+    border-top: thick double var(--color-dark);
+    border-bottom: var(--border-thin);
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    padding: 0.5em;
+}
+
+.circle{
+        z-index: -10;
+        
+        margin: auto auto;
+        width: 80vh;
+        height: 80vh;
+    
+        grid-row: 1/span 5;
+        grid-column: 1/span 8;
+    
+        background-color: rgb(165, 228, 230);
+        mix-blend-mode: multiply;
+    
+        border-radius: 100%;
+    }

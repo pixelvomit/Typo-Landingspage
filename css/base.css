@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    background-color: var(--color-light);
+    font-family: var(--font-base);
+    color: var(--color-base);
+    font-size: 1rem;
+
+    background: rgba(255, 255, 255 ,1);
+    background: radial-gradient(circle, rgba(52, 107, 108, 0.474) 0%, rgba(155, 140, 105, 0.3) 100%);
+
+    min-height: 100vh;
+}
+
+
+h1{
+    font-family: var(--font-accent);
+}
+
+ul{
+    list-style: none;
+}

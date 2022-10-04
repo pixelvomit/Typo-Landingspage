@@ -1,0 +1,8 @@
+.beyond{
+    grid-row: 3 /span 1;
+    grid-column: 1 /span 9;
+
+    font-size: 4rem;
+
+    border-bottom: var(--border-thing);
+}
